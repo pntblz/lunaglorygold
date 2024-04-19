@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+}
+
+& .size-icon {
+  height: 2rem;
+  filter: invert(73%) sepia(54%) saturate(257%) hue-rotate(158deg) brightness(89%) contrast(94%);
+
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #83bedc;
+  & p {
+    color: white;
+
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  /* for desktop */
+  .contact {
+    margin-bottom: 1rem;
+  }
+  & .icon {
+    margin: 1rem 1rem;
+  }
+  & .size-icon {
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* for mobile */
+  .text-head {
+    font-size: 2rem;
+  }
+  .icon {
+    margin: 1rem 0.5rem 0 0.5rem;
+  }
+}
