@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 600px) {
   /* for desktop */
-  #carouselExample, #carouselExample2, #CarouselExample3 {
+  #carouselExample, #carouselExample2, #carouselExample3 {
     width: 40% !important;
   }
 }
@@ -27,7 +27,7 @@
     font-size: 0.75rem;
   }
 
-  #carouselExample, #carouselExample2, #CarouselExample3 {
+  #carouselExample, #carouselExample2, #carouselExample3 {
     width: 100% !important;
   }
 
