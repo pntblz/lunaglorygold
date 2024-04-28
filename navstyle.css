@@ -42,6 +42,7 @@ nav {
   width: 25px;
 }
 
+
 @media screen and (min-width: 600px) {
   /* for desktop */
   .hamburger {
@@ -109,6 +110,7 @@ nav {
 
   .menu-mobile {
     width: 50%;
+    height: 100%;
     background-color: #83bedc;
     text-align: right;
     list-style: none;
