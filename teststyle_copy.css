@@ -161,7 +161,7 @@ footer {
   .text-overlay {
     position: absolute; /* Positions text absolutely within container */
     top: 20%; /* Adjusts the top position of the text */
-    left: 7%;
+    left: 6%;
     /* transform: translateX(-110%); */
     font-size: 3rem;
     color: white;
